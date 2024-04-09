@@ -9,7 +9,7 @@ import TemplateComponent from 'pages/template';
 function App() {
   return (
     <main className='darkbg-zinc-900 darktext-gray-100 flex h-screen justify-center bg-blue-200 text-gray-900'>
-      <section className='my-4 max-w-screen-md flex-col space-y-4 p-4'>
+      <section className='mb-4 max-w-screen-md flex-col space-y-4 p-4'>
         <div className='mb-6 flex h-16 justify-between'>
           <img className='h-full w-full' src={reactLogo} alt='react logo' />
           <img className='h-full w-full' src={viteLogo} alt='vite logo' />
