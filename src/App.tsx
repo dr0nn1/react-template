@@ -4,6 +4,7 @@ import tsLogo from '@assets/ts.svg';
 import eslintLogo from '@assets/eslint.svg';
 import prettierLogo from '@assets/prettier.svg';
 import axiosLogo from '@assets/axios.svg';
+import TemplateComponent from 'pages/template';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <li>classNames and tailwind-merge libraries installed with the `cn` function added ✅</li>
           </ul>
         </section>
+        <TemplateComponent />
       </section>
     </main>
   );
